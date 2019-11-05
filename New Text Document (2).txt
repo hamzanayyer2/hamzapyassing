@@ -1,0 +1,24 @@
+1 print("Twinkle, twinkle, little star,\n\t How I wonder what you are!\n\t\tUp above the world so high,\n\t\tLike a diamond in he sky.\nTwinkle, twinkle, little star,\n\tHow I wonder what you are")                                                                             
+ 2 import sys
+print (sys.version)                                                                                                                                                                        
+3 import datetime
+
+now = datetime.datetime.now()
+
+print ("Current date and time : "+now.strftime("%d-%m-%Y %H:%M:%S"))                                                                           
+4 radius=int(input("Enter the radius of circle"))
+
+pi=3.142
+
+area=radius*radius*pi                                                                                                                                                             
+5 user=input("Enter your first name")
+
+last=input("Enter your last name")
+
+print(user[::-1] +" " last[::-1])                                                                                                                                                   
+6 num1=int(input("Enter the 1 num"))
+
+num2=int(input("Enter the 2 num"))
+
+sum=num1+num2
+print("the sum is",sum)
